@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>SnapIt | Find your desired fashion</title>
+
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="canonical" href="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" type="image/x-icon" , sizes="16x16">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    
+    <link href="vendor/jquery.bxslider-min.css" rel="stylesheet" />
+    <!-- jQuery library -->
+    <script src="vendor/jquery-3.1.1.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="vendor/jquery.bxslider-min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                mode: 'horizontal',
+                moveSlides: 1,
+                slideMargin: 5,
+                infiniteLoop: true,
+//                slideWidth: 660,
+//                minSlides: 1,
+//                maxSlides: 2,
+                speed: 200,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/snapit_logo.svg" alt="">
+                <p>SnapIt</p>
+            </div>
+            <div class="signinup">
+                <button class="signin">ĐĂNG NHẬP</button>
+                <button class="signup">ĐĂNG KÝ</button>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <section id="show-app">
+            <div class="main-app">
+                <img src="img/main-app.png" alt="">
+            </div>
+            <div class="call-to-action">
+                <h4>
+                    DỄ DÀNG TÌM KIẾM MỌI MÓN ĐỒ YÊU THÍCH
+                </h4>
+                <p>Chỉ trong tích tắc</p>
+                <button class="">TẢI NGAY</button>
+                <div class="app-store">
+                    <img src="img/apple-app-store-icon.svg" alt="">
+                    <img src="img/googlePlay_135x40.svg" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <section id="steps">
+            <ul class="bxslider">
+                <li>
+                    <div class="step">
+                        <div class="step-detail">
+                            <p>Bước 1</p>
+                            <h4>CHUẨN BỊ BỨC ẢNH MÓN ĐỒ MÀ BẠN YÊU THÍCH</h4>
+                            <p>Bạn có thể tự chụp, chọn ảnh có sẵn trong máy, hay ảnh screenshot ở bất cứ nơi đâu.</p>
+                        </div>
+                        <div class="step-pic">
+                            <img src="img/step-pic.png" alt="">
+                        </div>
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="step">
+                        <div class="step-detail">
+                            <p>Bước 2</p>
+                            <h4>TẢI ẢNH MÓN ĐỒ LÊN ĐỂ BẮT ĐẦU QUÁ TRÌNH TÌM KIẾM</h4>
+                        </div>
+                        <div class="step-pic">
+                            <img src="img/step-pic.png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                <div class="step">
+                    <div class="step-detail">
+                        <p>Bước 3</p>
+                        <h4>LỰA MÓN ĐỒ MÀ BẠN YÊU THÍCH</h4>
+                        <p>Các thông tin về món đồ sẽ được hiển thị cùng với các món đồ tương tự để bạn thoải mái lựa chọn.</p>
+                    </div>
+                    <div class="step-pic">
+                            <img src="img/step-pic.png" alt="">
+                    </div>
+                </div>
+            </li>
+            </ul>
+        </section>
+        
+        <div class="line-separator"></div>
+        
+        <section id="call-to-detail">
+            
+            <h4>Muốn tìm hiểu thêm về chúng tôi ?</h4>
+            <button>KHÁM PHÁ LUÔN !</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <h4>SnapIt</h4>
+        <p>@2017 SnapIt. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

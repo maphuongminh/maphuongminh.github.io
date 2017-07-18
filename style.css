@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h3 {
+  font-size: 2.333rem;
+  font-weight: 600;
+  font-line-height: 1.286;
+  font-color: #4A4A4A;
+  font-padding: 0.5rem 0;
+  font-text-align: center; }
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-line-height: 1.375;
+  font-color: #4A4A4A;
+  font-padding: 1rem 0;
+  font-text-align: center; }
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  font-line-height: 1.667;
+  font-padding: .5rem 0;
+  font-text-align: center; }
+
+@font-face {
+  font-family: "Chalkboard SE";
+  src: url("fonts/ChalkboardSE.ttc"); }
+
+body {
+  font-family: "Chalkboard SE";
+  font-size: 1rem;
+  line-height: 1.4; }
+
+button {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  font-family: "Chalkboard SE"; }
+
+section, nav {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem 0; }
+
+header {
+  background: white;
+  padding: 0.5rem 0;
+  max-width: 100%; }
+  header nav {
+    justify-content: center; }
+    header nav:after {
+      content: "";
+      display: table;
+      clear: both; }
+    header nav .logo {
+      float: left;
+      margin: 0 2rem; }
+      header nav .logo img {
+        width: 100px;
+        height: 100px; }
+      header nav .logo p, header nav .logo img {
+        display: inline;
+        vertical-align: middle; }
+      header nav .logo p {
+        font-size: 2rem; }
+    header nav .signinup {
+      float: right;
+      margin: 1rem;
+      padding-right: 5rem; }
+      header nav .signinup button {
+        font-size: 1.2rem;
+        overflow: hidden;
+        width: 180px;
+        height: 62px; }
+
+main #show-app {
+  background: url("img/background.png");
+  max-height: 630px; }
+  main #show-app:after {
+    content: "";
+    display: table;
+    clear: both; }
+  main #show-app .main-app, main #show-app .call-to-action {
+    display: inline-block;
+    margin: 2rem 0; }
+  main #show-app .main-app {
+    width: 25%;
+    margin: 3rem 6rem; }
+    main #show-app .main-app img {
+      width: 390px;
+      height: 703px; }
+  main #show-app .call-to-action {
+    width: auto;
+    float: right;
+    margin: 15rem 3rem; }
+    main #show-app .call-to-action img {
+      width: 107px;
+      height: 37px; }
+    main #show-app .call-to-action h4 {
+      margin: 0.5rem 0; }
+    main #show-app .call-to-action button {
+      /* Rectangle: */
+      border: 1px solid #000000;
+      height: 62px;
+      width: 237px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+      margin: 1rem 0;
+      font-size: 2rem; }
+
+main #steps {
+  margin: 2rem auto; }
+  main #steps .step {
+    max-height: 20rem;
+    overflow: hidden; }
+    main #steps .step:after {
+      content: "";
+      display: table;
+      clear: both; }
+    main #steps .step .step-detail {
+      margin-top: 3rem;
+      margin-left: 4rem;
+      width: 55%;
+      float: left; }
+      main #steps .step .step-detail h4 {
+        margin: 3rem 0; }
+    main #steps .step .stp-pic {
+      float: right;
+      width: 40%; }
+
+main .line-separator {
+  height: 1px;
+  background: #717171;
+  margin: 1rem auto;
+  width: 45%; }
+
+main #call-to-detail {
+  margin: 1rem auto; }
+  main #call-to-detail button, main #call-to-detail h4 {
+    display: block; }
+  main #call-to-detail h4 {
+    margin: 0 auto;
+    text-align: center; }
+  main #call-to-detail button {
+    height: 73px;
+    width: 307px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin: 2rem auto;
+    font-size: 2rem; }
+
+footer {
+  background: gray;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  max-width: 65rem; }
+  footer h4, footer p {
+    color: white;
+    text-align: center; }
